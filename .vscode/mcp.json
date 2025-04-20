@@ -1,0 +1,46 @@
+{
+    "servers": {
+        "my-mcp-server-91646a4a": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@microsoft/playwright-mcp",
+                "--client",
+                "vscode",
+                "--config",
+                "'{}'"
+            ]
+        },
+        "my-mcp-server-c84c7d26": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@smithery-ai/server-sequential-thinking",
+                "--client",
+                "vscode",
+                "--config",
+                "'{}'"
+            ]
+        },
+        "my-mcp-server-e876d696": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@smithery/cli@latest",
+                "install",
+                "@nickclyde/duckduckgo-mcp-server",
+                "--client",
+                "vscode",
+                "--key",
+                "5d7d2a8d-4f03-47a5-9c58-2a0c24ef0ab2"
+            ]
+        }
+    }
+}
